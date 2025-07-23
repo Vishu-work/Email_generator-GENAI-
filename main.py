@@ -2,7 +2,7 @@ import cohere
 import os
 
 
-os.environ['COHERE_API_KEY'] = 's7qgwB0QeSCV0p1xjhDkOiDhwYQ9Sp1ejLQ9mjX7'
+os.environ["COHERE_API_KEY"] = "YOUR_API_KEY"
 
 
 co = cohere.Client(os.getenv("COHERE_API_KEY"))
